@@ -26,9 +26,6 @@ a {
 a[href^="http:"] {
   color: #52bab3;
   text-decoration: none;
-  background-repeat: no-repeat;
-  background-size: 18px 18px;
-  padding-left: 25px;
 }
 
 a[href$=".pdf"] {
@@ -43,8 +40,22 @@ a[href$=".zip"] {
   background-image: url('../img/icn-zip.svg');
 }
 
+a[href*="downloads"] {
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  padding-left: 25px; 
+}
 
+img[src*="thumb"] {
+  margin: 4px;
+  border: solid 2px;
+  width: 180px;
+  height: 140px;
+}
 
+img[src*="bay"] {
+  border-color: red;
+}
 
 
 
