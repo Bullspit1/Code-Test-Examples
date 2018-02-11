@@ -1,0 +1,21 @@
+/* :nth-child Pseudo-classes------------------ */
+
+li:nth-child(2n+3){
+  background: #52bab3;
+  color: white;
+}
+
+/*li:nth-child(odd){
+  background: #52bab3;
+  color: white;
+}
+
+li:nth-child(even){
+  background: #52bab3;
+  color: white;
+}
+
+li:nth-child(7){
+  background: #52bab3;
+  color: white;
+}*/
