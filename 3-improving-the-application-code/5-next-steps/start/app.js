@@ -1,21 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  /*-------------------LocalStorage---------------------*/
-  // function supportLocalStorage(){
-  //   if(typeof(Storage) !== "undefined"){
-  //   alert("Your Computer Supports Local Storage");
-  // } else {
-  //   alert("Sorry, you computer does not support Local Storage");
-  // }
-  // }
-
-  // function getRecentSearches(element){
-  //   let searches = localStorage.getItem(element);
-  //   return searches;
-  // }
-
-
-
   const form = document.getElementById('registrar');
   const input = form.querySelector('input');
 
@@ -25,6 +9,33 @@ document.addEventListener('DOMContentLoaded', () => {
   const div = document.createElement('div');
   const filterLabel = document.createElement('label');
   const filterCheckBox = document.createElement('input');
+
+  /*-------------------LocalStorage---------------------*/
+  // function supportLocalStorage(){
+  //   if(typeof(Storage) !== "undefined"){
+  //   alert("Your Computer Supports Local Storage");
+  // } else {
+  //   alert("Sorry, you computer does not support Local Storage");
+  // }
+  // }
+
+  // function getRecentSearches(){
+  //   // const searchBar = input;
+  //   const eachName = ul.children;
+  //   localStorage.setItem('text', eachName);
+  // }
+
+  // function saveSearches(str){//ul.children
+  //   searches = getRecentSearches();
+  //   if(!str || searches){
+
+  //   }
+  //   localStorage.getItem('text');
+  // }
+
+
+
+  /*-------------------JavaScript---------------------*/
 
   filterLabel.textContent = "Hide those who haven't responded";
   filterCheckBox.type = 'checkbox';
