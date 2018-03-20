@@ -1,10 +1,21 @@
 
 
-var dice = {
-  sides: 6,
-  // A function on an object is known as a method
-  roll: function () {
+// var dice = {
+//   sides: 6,
+//   // A function on an object is known as a method
+//   roll: function () {
+//     var randomNumber = Math.floor(Math.random() * this.sides) + 1;
+//     return randomNumber;
+//   }
+// }
+
+
+function Dice(sides){
+  this.sides = sides;
+  this.roll = function(){
     var randomNumber = Math.floor(Math.random() * this.sides) + 1;
     return randomNumber;
   }
 }
+
+var dice = new Dice(6);
